@@ -82,8 +82,8 @@ export const metadata = {
   icons: {
     icon: {
       media: "(prefers-color-scheme: light)",
-      url: "/brand-logo/svg/acme.svg",
-      href: "/brand-logo/svg/acme.svg",
+      url: "/svg/flutter.svg",
+      href: "/svg/flutter.svg",
     },
   },
 };
