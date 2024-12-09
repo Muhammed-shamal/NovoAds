@@ -13,7 +13,7 @@ export function LampEffect() {
             ease: "easeInOut",
           }}
           className=" bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-2xl font-medium tracking-tight text-transparent md:text-7xl">
-          Corvoso <br /> the secret
+          NovoAds <br /> the secret
         </motion.h1>
       </LampContainer>)
     );

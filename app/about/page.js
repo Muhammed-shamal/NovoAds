@@ -16,7 +16,7 @@ export default function About() {
         <div className="w-36 h-36 sm:w-40 sm:h-40 md:w-56 md:h-56 rounded-full bg-teal-500 flex items-center justify-center shadow-lg">
           <Image
             src="/svg/next-js.svg" // Your profile image path
-            alt="Corvoso Technologies"
+            alt="NovoAds Technologies"
             width={200}
             height={200}
             className="rounded-full object-cover"
@@ -26,10 +26,10 @@ export default function About() {
 
       {/* Text Content */}
       <div className="text-center md:text-left space-y-4">
-        <h2 className="text-2xl sm:text-3xl font-semibold">CORVOSO TECHNOLOGIES</h2>
+        <h2 className="text-2xl sm:text-3xl font-semibold">NovoAds TECHNOLOGIES</h2>
         <p className="text-base sm:text-lg text-tertiary dark:text-quaternary">Innovative Solutions for the Future</p>
         <p className="text-sm sm:text-base leading-relaxed">
-          At Corvoso Technologies, we aim to revolutionize the world with cutting-edge technology and research. We
+          At NovoAds Technologies, we aim to revolutionize the world with cutting-edge technology and research. We
           specialize in clean energy solutions, advanced atmospheric modeling, and the development of futuristic
           hardware.
         </p>

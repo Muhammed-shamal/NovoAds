@@ -3,7 +3,7 @@
 import {motion} from 'framer-motion'
 import Image from "next/image";
 
-import Corvoso from '@/public/images/corvoso.png'
+import NovoAds from '@/public/images/NovoAds.png'
 import React from "@/public/svg/react.svg";
 import Css from "@/public/svg/css.svg";
 import Python from "@/public/svg/python.svg";
@@ -196,7 +196,7 @@ export default function Technologies() {
                 <div >
                   <Image
                     className="relative"
-                    src={Corvoso}
+                    src={NovoAds}
                     width={50}
                     height={46}
                     alt="Logo 01"

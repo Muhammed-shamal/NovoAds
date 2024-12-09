@@ -9,14 +9,14 @@ const Footer = () => {
       <div class="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
   <div class="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
     <div class="sm:col-span-2">
-      <a href="/" aria-label="redirect to home page" title="Corvoso" class="inline-flex items-center">
+      <a href="/" aria-label="redirect to home page" title="NovoAds" class="inline-flex items-center">
         <svg class="w-8 text-deep-purple-accent-400" viewBox="0 0 24 24" strokeLinejoin="round" strokeWidth="2" strokeLinecap="round" strokeMiterlimit="10" stroke="currentColor" fill="none">
           <rect className="dark:text-tertiary" x="3" y="1" width="7" height="12" color="#4626b7ff"></rect>
           <rect className="dark:text-tertiary" x="3" y="17" width="7" height="6" color="#4626b7ff"></rect>
           <rect className="dark:text-tertiary" x="14" y="1" width="7" height="6" color="#4626b7ff"></rect>
           <rect className="dark:text-tertiary" x="14" y="11" width="7" height="12" color="#4626b7ff"></rect>
         </svg>
-        <span class="ml-2 text-xl font-bold tracking-wide text-secondary dark:text-tertiary uppercase">Corvoso</span>
+        <span class="ml-2 text-xl font-bold tracking-wide text-secondary dark:text-tertiary uppercase">NovoAds</span>
          
       </a>
       <div class="mt-6 lg:max-w-sm">
@@ -36,7 +36,7 @@ const Footer = () => {
       </div>
       <div class="flex">
         <p class="mr-1 text-gray-800 dark:text-background">Email:</p>
-        <a href="mailto:corvosotechnologies@gmail.com" aria-label="contact mail" title="Our email" class="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800 dark:text-quaternary">info@lorem.mail</a>
+        <a href="mailto:NovoAdstechnologies@gmail.com" aria-label="contact mail" title="Our email" class="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800 dark:text-quaternary">info@lorem.mail</a>
       </div>
       <div class="flex">
         <p class="mr-1 text-gray-800 dark:text-background">Address:</p>
@@ -55,7 +55,7 @@ const Footer = () => {
             ></path>
           </svg>
         </a>
-        <a href="https://www.instagram.com/corvoso.technologies/"  aria-label="Instagram" class="text-gray-500 dark:text-quaternary transition-colors duration-300 hover:text-deep-purple-accent-400">
+        <a href="https://www.instagram.com/NovoAds.technologies/"  aria-label="Instagram" class="text-gray-500 dark:text-quaternary transition-colors duration-300 hover:text-deep-purple-accent-400">
           <svg viewBox="0 0 30 30" fill="currentColor" class="h-6">
             <circle cx="15" cy="15" r="4"></circle>
             <path

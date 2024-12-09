@@ -79,15 +79,7 @@ export default function Header() {
             About us
           </Link>
         </NavbarItem>
-        {/* <NavbarItem>
-          <Link
-            href="/services"
-            color={isActive("/services") ? "primary" : "foreground"}
-            aria-current={isActive("/services") ? "page" : undefined}
-          >
-            Services
-          </Link>
-        </NavbarItem> */}
+
         <Dropdown>
           <NavbarItem>
             <DropdownTrigger>

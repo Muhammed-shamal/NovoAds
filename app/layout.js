@@ -24,7 +24,7 @@ const architects_daughter = Architects_Daughter({
 export const metadata = {
   title: "NovoAds",
   description: [
-    "Data Structures, Algorithms, Python, Java, C, C++, JavaScript, Android Development, SQL, Data Science, Machine Learning, PHP, Web Development, System Design, Tutorial, Technical Blogs, Interview Experience, Interview Preparation, Programming, Competitive Programming, Jobs, Coding Contests, GATE CSE, HTML, CSS, React, NodeJS, Placement, Aptitude, Quiz, Computer Science, Programming Examples, Corvoso Courses, Puzzles, SSC, Banking, UPSC, Commerce, Finance, CBSE, School, k12, General Knowledge, News, Mathematics, Exams,+2,Commerce,SSLC",
+    "Data Structures, Algorithms, Python, Java, C, C++, JavaScript, Android Development, SQL, Data Science, Machine Learning, PHP, Web Development, System Design, Tutorial, Technical Blogs, Interview Experience, Interview Preparation, Programming, Competitive Programming, Jobs, Coding Contests, GATE CSE, HTML, CSS, React, NodeJS, Placement, Aptitude, Quiz, Computer Science, Programming Examples, NovoAds Courses, Puzzles, SSC, Banking, UPSC, Commerce, Finance, CBSE, School, k12, General Knowledge, News, Mathematics, Exams,+2,Commerce,SSLC",
   ].join(", "),
 
   keywords: [
@@ -60,7 +60,7 @@ export const metadata = {
     "Quiz",
     "Computer Science",
     "Programming Examples",
-    "Corvoso Courses",
+    "NovoAds Courses",
     "Puzzles",
     "SSC",
     "Banking",

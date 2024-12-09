@@ -29,8 +29,8 @@ export default function LoadingSpinner() {
       <div className="fixed inset-0 flex items-center justify-center bg-white dark:bg-background-dark z-50">
          
         <Image
-          src="/corvoso/svg/Asset 1.svg" // Your logo path
-          alt="Corvoso Technologies"
+          src="/NovoAds/svg/Asset 1.svg" // Your logo path
+          alt="NovoAds Technologies"
           className="w-24 h-24 animate-spin"
         />
       </div>

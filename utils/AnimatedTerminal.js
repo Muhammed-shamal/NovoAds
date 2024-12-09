@@ -37,7 +37,7 @@ const AnimatedTerminal = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 1 }}
         >
-          <span className="text-[13px] font-medium text-white">corvoso.com</span>
+          <span className="text-[13px] font-medium text-white">NovoAds.com</span>
         </motion.div>
 
         <motion.div

@@ -45,8 +45,8 @@ export default function CourseDetail() {
       />
     ) : (
       <Image
-        src={'/svg/corvoso.svg'}
-        alt={'corvosoImg'}
+        src={'/svg/NovoAds.svg'}
+        alt={'NovoAdsImg'}
         width={48} // Example size in px
         height={48}
         className="rounded-full mr-4"

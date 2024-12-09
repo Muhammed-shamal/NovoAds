@@ -20,7 +20,7 @@ export default function DashboardPage() {
       <div className="relative h-screen bg-red-300 flex items-center justify-center">
         <Parallax offset={300}>
           <motion.div className="w-64 h-64 bg-white rounded-lg shadow-lg flex items-center justify-center">
-            <Image src="/images/logo/corvoso.png" alt="corvoso" width="64" height="64" className="w-16" />
+            <Image src="/images/logo/NovoAds.png" alt="NovoAds" width="64" height="64" className="w-16" />
           </motion.div>
         </Parallax>
       </div>
