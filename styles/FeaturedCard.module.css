@@ -1,0 +1,30 @@
+.featureCard {
+  position: relative; /* Needed for positioning the ::before pseudo-element */
+  background: linear-gradient(180deg, #242424, #121212 65.62%);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featureCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 3px; /* Adjust the height as needed */
+  background: #ff5733; /* Set your desired border color */
+  transition: width 0.7s ease; /* Smooth transition for width */
+}
+
+.featureCard:hover {
+  background: linear-gradient(180deg, #010510, #242424 65.62%);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.featureCard:hover::before {
+  width: 100%;
+}
+
+

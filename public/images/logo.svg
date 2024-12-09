@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_2"
+   viewBox="0 0 1245656.8 30119.603"
+   version="1.1"
+   sodipodi:docname="Asset 2.svg"
+   width="1245656.8"
+   height="30119.604"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">.cls-1{fill:#4626b7;}.cls-1,.cls-2,.cls-3,.cls-4,.cls-5{stroke-width:0px;}.cls-2{fill:none;}.cls-3{fill:#1d1d1b;}.cls-4{fill:#1c1f55;}.cls-5{fill:#cd39e3;}</style>
+  </defs>
+  <g
+     id="Layer_1-2">
+    <rect
+       class="cls-1"
+       x="153.26578"
+       y="-90.658249"
+       width="61.360001"
+       height="61.360001"
+       transform="rotate(-45)"
+       id="rect7" />
+    <rect
+       class="cls-1"
+       x="153.2677"
+       y="-29.293592"
+       width="61.360001"
+       height="61.360001"
+       transform="rotate(-45)"
+       id="rect8" />
+    <rect
+       class="cls-1"
+       x="214.63043"
+       y="-90.660172"
+       width="61.360001"
+       height="61.360001"
+       transform="rotate(-45)"
+       id="rect9" />
+    <rect
+       class="cls-1"
+       x="285.51428"
+       y="-19.772718"
+       width="61.360001"
+       height="61.360001"
+       transform="rotate(-45)"
+       id="rect10" />
+    <rect
+       class="cls-1"
+       x="285.5152"
+       y="41.589508"
+       width="61.360001"
+       height="61.09"
+       transform="rotate(-45)"
+       id="rect11" />
+    <rect
+       class="cls-1"
+       x="224.15863"
+       y="41.586792"
+       width="61.360001"
+       height="61.360001"
+       transform="rotate(-45)"
+       id="rect12" />
+    <polyline
+       class="cls-2"
+       points="229.75 129.49 230.23 129.98 230.42 130.17"
+       id="polyline12"
+       transform="translate(44.264191,-259.26169)" />
+    <polygon
+       class="cls-5"
+       points="230.23,129.98 273.62,86.59 317.01,129.98 273.62,173.37 230.42,130.17 "
+       id="polygon12"
+       transform="translate(44.264191,-259.26169)" />
+    <line
+       class="cls-3"
+       x1="274.6842"
+       y1="-129.09169"
+       x2="274.4942"
+       y2="-129.28169"
+       id="line12" />
+  </g>
+</svg>

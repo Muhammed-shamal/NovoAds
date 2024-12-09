@@ -1,0 +1,61 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'cukil';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), url('/fonts/cukil.otf') format('opentype');
+}
+
+
+@font-face {
+  font-family: 'edo';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), url('/fonts/edo.ttf') format('ttf');
+}
+
+@font-face{
+  font-family: 'consola';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),url('/font/consola.ttf');
+}
+
+
+
+#three-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background-color: #f0f0f0; /* Adjust background color as needed */
+}
+
+
+.gradient {
+    height: fit-content;
+    z-index: 3;
+    width: 100%;
+    max-width: 640px;
+    background-image: radial-gradient(
+        at 27% 37%,
+        hsla(239, 50%, 22%) 0px,
+        transparent 0%
+      ),
+      radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 1) 0px, transparent 50%),
+      radial-gradient(at 52% 99%, hsla(292, 75%, 56%) 0px, transparent 50%),
+      radial-gradient(at 10% 29%, hsla(253, 66%, 43%) 0px, transparent 50%),
+      radial-gradient(at 97% 96%, hsla(60, 56%, 68%) 0px, transparent 50%);
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    filter: blur(100px) saturate(150%);
+    top: 80px;
+    opacity: 0.15;
+  }
