@@ -1,8 +1,9 @@
 import {nextui} from '@nextui-org/react'
+import flattenColorPalette from 'tailwindcss/lib/util/flattenColorPalette'
 
-const {
-  default: flattenColorPalette,
-} = require("tailwindcss/lib/util/flattenColorPalette");
+// const {
+//   default: flattenColorPalette,
+// } = require("tailwindcss/lib/util/flattenColorPalette");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
