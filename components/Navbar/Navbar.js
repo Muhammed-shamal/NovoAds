@@ -107,7 +107,7 @@ export default function Header() {
               description="Overcome any challenge with a supporting team ready to respond."
               startContent={icons.user}
             >
-              <Link href="/services/software-development">
+              <Link href="/services/software-development" className="dark:text-tertiary">
                 Software Development
               </Link>
             </DropdownItem> */}
@@ -118,7 +118,7 @@ export default function Header() {
               description="We scale apps to meet user demand, automatically, based on load."
               startContent={icons.scale}
             >
-              <Link href="/services/web-development">Web Development</Link>
+              <Link href="/services/web-development" className="dark:text-tertiary">Web Development</Link>
             </DropdownItem>
 
             <DropdownItem
@@ -127,7 +127,7 @@ export default function Header() {
               description="Real-time metrics to debug issues. Slow query added? We’ll show you exactly where."
               startContent={icons.activity}
             >
-              <Link href="/services/app-development">
+              <Link href="/services/app-development" className="dark:text-tertiary">
                 Mobile App Development
               </Link>
             </DropdownItem>
@@ -138,7 +138,7 @@ export default function Header() {
               description="Innovative digital marketing strategies to grow your brand."
               startContent={icons.flash}
             >
-              <Link href="/services/digital-marketing">Digital Marketing</Link>
+              <Link href="/services/digital-marketing" className="dark:text-tertiary">Digital Marketing</Link>
             </DropdownItem>
 
             <DropdownItem
@@ -147,7 +147,7 @@ export default function Header() {
               description="Creative graphic design solutions to elevate your visual presence."
               startContent={icons.server}
             >
-              <Link href="/services/graphic-design">Graphic Design</Link>
+              <Link href="/services/graphic-design" className="dark:text-tertiary">Graphic Design</Link>
             </DropdownItem>
           </DropdownMenu>
         </Dropdown>

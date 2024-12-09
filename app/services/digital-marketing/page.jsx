@@ -229,14 +229,14 @@ const DigitalMarketing = () => {
               width={60}
               height={50}
             />
-            <h3 className="text-xl font-bold text-blue-600">{feature.name}</h3>
+            <h3 className="text-xl font-bold text-secondary dark:text-tertiary">{feature.name}</h3>
           </div>
         ))}
       </div>
 
       {/* FAQ Section */}
       <div className="max-w-7xl mx-auto mt-16 px-6">
-        <h2 className="text-4xl font-bold text-blue-600 mb-8">FAQs</h2>
+        <h2 className="text-4xl font-bold text-secondary dark:text-tertiary mb-8">FAQs</h2>
         <div className="space-y-6">
           {[
             {
@@ -259,7 +259,7 @@ const DigitalMarketing = () => {
               key={faq.question}
               className="bg-gray-100 p-6 rounded-lg shadow-md"
             >
-              <h3 className="text-xl font-bold text-blue-600">
+              <h3 className="text-xl font-bold text-secondary dark:text-tertiary">
                 {faq.question}
               </h3>
               <p className="text-gray-700 mt-2 leading-relaxed">{faq.answer}</p>
@@ -270,7 +270,7 @@ const DigitalMarketing = () => {
 
       {/* Get Started Section */}
       <div className="text-center mt-16 px-6">
-        <h2 className="text-4xl font-bold text-blue-600 mb-8">
+        <h2 className="text-4xl font-bold text-secondary dark:text-tertiary mb-8">
           Ready to Grow Your Business?
         </h2>
         <p className="text-gray-700 text-lg leading-relaxed">

@@ -113,7 +113,7 @@ export default function CourseDetail() {
       {/* Back Button */}
       <button
         onClick={() => router.back()}
-        className="mt-8 px-6 py-2 bg-blue-600 dark:bg-blue-500 text-white rounded-lg hover:bg-blue-500 dark:hover:bg-blue-400 transition duration-300"
+        className="mt-8 px-6 py-2 bg-secondary dark:bg-tertiary text-white rounded-lg hover:bg-blue-500 dark:hover:bg-blue-400 transition duration-300"
       >
         Back to Courses
       </button>

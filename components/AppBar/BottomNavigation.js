@@ -23,7 +23,7 @@ const BottomNavigation = () => {
   const router = useRouter();
   const [isVisible, setIsVisible] = useState(true);
   const lastScrollTop = useRef(0);
-  const [showCourses, setShowCourses] = useState(false);
+  // const [showCourses, setShowCourses] = useState(false);
   const [showServices, setShowServices] = useState(false);
   const longPressTimer = useRef(null);
   const isLongPress = useRef(false); // Track if it was a long press
@@ -41,26 +41,26 @@ const BottomNavigation = () => {
     lastScrollTop.current = currentScrollTop <= 0 ? 0 : currentScrollTop;
   };
 
-  const handleCourseButtonPress = () => {
-    isLongPress.current = false; // Reset long press flag
-    longPressTimer.current = setTimeout(() => {
-      isLongPress.current = true; // Long press activated
-      setShowCourses(true); // Show courses
-    }, 600); // 600ms for long press
-  };
+  // const handleCourseButtonPress = () => {
+  //   isLongPress.current = false; // Reset long press flag
+  //   longPressTimer.current = setTimeout(() => {
+  //     isLongPress.current = true; // Long press activated
+  //     setShowCourses(true); // Show courses
+  //   }, 600); // 600ms for long press
+  // };
 
-  const handleCourseButtonRelease = () => {
-    clearTimeout(longPressTimer.current);
-    if (!isLongPress.current) {
-      // If not long press, it's a short press; navigate to courses page
-      router.push("/courses");
-    }
-  };
+  // const handleCourseButtonRelease = () => {
+  //   clearTimeout(longPressTimer.current);
+  //   if (!isLongPress.current) {
+  //     // If not long press, it's a short press; navigate to courses page
+  //     router.push("/courses");
+  //   }
+  // };
 
-  const handleCourseOptionClick = (path) => {
-    setShowCourses(false); // Hide course options after selection
-    router.push(path); // Navigate to the selected course
-  };
+  // const handleCourseOptionClick = (path) => {
+  //   setShowCourses(false); // Hide course options after selection
+  //   router.push(path); // Navigate to the selected course
+  // };
 
   const handleServicesClick = () => {
     setShowServices(!showServices); // Toggle the dropdown menu
@@ -117,7 +117,7 @@ const BottomNavigation = () => {
       ))}
 
       {/* Course button with long press */}
-      <motion.button
+      {/* <motion.button
         onMouseDown={handleCourseButtonPress}
         onTouchStart={handleCourseButtonPress}
         onMouseUp={handleCourseButtonRelease}
@@ -130,10 +130,10 @@ const BottomNavigation = () => {
       >
         <MdCastForEducation size={21} />
         <span className="text-xs mt-1">Course</span>
-      </motion.button>
+      </motion.button> */}
 
       {/* Vertically displayed courses on long press (with icons for premium look) */}
-      {showCourses && (
+      {/* {showCourses && (
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -181,7 +181,7 @@ const BottomNavigation = () => {
             </button>
           ))}
         </motion.div>
-      )}
+      )} */}
 
       {/* Services button with dropdown */}
       <motion.button
@@ -201,14 +201,9 @@ const BottomNavigation = () => {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3 }}
-          className="absolute bottom-[60px] left-1/2 bg-background dark:bg-background-dark border border-gray-200 dark:border-tertiary shadow-lg rounded-lg p-2"
+          className="absolute bottom-[60px] left-1/2 bg-background dark:bg-background-dark border border-gray-200 dark:border-tertiary shadow-lg text-secondary dark:text-tertiary rounded-lg p-2"
         >
           {[
-            {
-              path: "/services/software-development",
-              icon: <SiReact size={24} />,
-              label: "Software Development",
-            },
             {
               path: "/services/web-development",
               icon: <SiPython size={24} />,
