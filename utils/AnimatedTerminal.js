@@ -49,7 +49,7 @@ const AnimatedTerminal = () => {
           <span className="text-white">npm login</span>
           {[
             '--registry=https://npm.pkg.github.com',
-            '--scope=@corvos0',
+            '--scope=@novoAds',
             'Successfully logged-in.'
           ].map((line, index) => (
             <div key={index}>

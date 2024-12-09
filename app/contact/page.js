@@ -19,7 +19,7 @@ function ContactUs() {
       <div className="grid md:grid-cols-2">
         <div className="h-full pr-6">
           <p className="mt-3 mb-12 text-lg text-gray-600 dark:text-slate-400">
-          At NovoAds Technologies, we are passionate about bridging the gap between education and professional expertise. 
+          At NovoAds, we are passionate about bridging the gap between education and professional expertise. 
           Our goal is simple: to provide high-quality, affordable training in Information Technology (IT)
            while delivering cutting-edge solutions for businesses through web and mobile development.
           </p>

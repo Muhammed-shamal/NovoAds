@@ -11,7 +11,7 @@ export default function FeaturedSection() {
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-background">
               Everything you need do & make yours
             </p>
-            <p className="mt-6 text-lg leading-8 text-primary sm:text-4xl dark:text-background">
+            <p className="mt-6 text-sm leading-8 text-primary sm:text-2xl dark:text-background">
               Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
               pulvinar et feugiat blandit at. In mi viverra elit nunc.
             </p>

@@ -30,7 +30,7 @@ export default function LoadingSpinner() {
          
         <Image
           src="/NovoAds/svg/Asset 1.svg" // Your logo path
-          alt="NovoAds Technologies"
+          alt="NovoAds"
           className="w-24 h-24 animate-spin"
         />
       </div>

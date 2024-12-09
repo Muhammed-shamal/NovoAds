@@ -32,7 +32,7 @@ const Footer = () => {
       <p class="text-base font-bold tracking-wide text-gray-900 dark:text-background">Contacts</p>
       <div class="flex">
         <p class="mr-1 text-gray-800 dark:text-background">Phone:</p>
-        <a href="tel:850-123-5021" aria-label="contact number" title="Our phone" class="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800 dark:text-quaternary">850-123-5021</a>
+        <a href="tel:8304912033" aria-label="contact number" title="Our phone" class="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800 dark:text-quaternary">850-123-5021</a>
       </div>
       <div class="flex">
         <p class="mr-1 text-gray-800 dark:text-background">Email:</p>

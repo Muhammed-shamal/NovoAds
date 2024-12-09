@@ -50,7 +50,7 @@ export default function Header() {
   };
 
   return (
-    <Navbar shouldHideOnScroll>
+    <Navbar shouldHideOnScroll className="dark:bg-black font-medium">
       <NavbarBrand>
         <AcmeLogo />
         <p className="font-bold text-inherit">NovoAds</p>
@@ -59,8 +59,8 @@ export default function Header() {
         <NavbarItem>
           <Link
             href="/"
-            className={` dark:text-tertiary hover:text-primary ${
-              isActive("/") ? color : "text-gray-700"
+            className={` dark:text-tertiary ${
+              isActive("/") ? color : "text-secondary"
             }`}
             //color={isActive("/") ? "tertiary" : "primary"}
             aria-current={isActive("/") ? "page" : undefined}
@@ -71,8 +71,8 @@ export default function Header() {
         <NavbarItem>
           <Link
             href="/about"
-            className={`dark:text-tertiary hover:text-primary ${
-              isActive("/about") ? color : "text-gray-700"
+            className={`dark:text-tertiary  ${
+              isActive("/about") ? color : "text-secondary"
             }`}
             aria-current={isActive("/about") ? "page" : undefined}
           >
@@ -101,7 +101,7 @@ export default function Header() {
               base: "gap-4",
             }}
           >
-            <DropdownItem
+            {/* <DropdownItem
               key="software-development"
               textValue="Software Development"
               description="Overcome any challenge with a supporting team ready to respond."
@@ -110,7 +110,7 @@ export default function Header() {
               <Link href="/services/software-development">
                 Software Development
               </Link>
-            </DropdownItem>
+            </DropdownItem> */}
 
             <DropdownItem
               key="web-development"
@@ -154,8 +154,8 @@ export default function Header() {
         <NavbarItem>
           <Link
             href="/contact"
-            className={` dark:text-tertiary hover:text-primary ${
-              isActive("/contact") ? color : "text-gray-700"
+            className={` dark:text-tertiary  ${
+              isActive("/contact") ? color : "text-secondary"
             }`}
             //color={isActive("/contact") ? "primary" : "foreground"}
             aria-current={isActive("/contact") ? "page" : undefined}
